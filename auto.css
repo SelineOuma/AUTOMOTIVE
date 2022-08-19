@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     margin: 0 auto;
+}
+
+.main{
+    background-image: url(car-bg.jpg);
+    background-size:cover;
+    background-position:center ;
+    min-height: 100vh;
+
+}
+
+.container {
+    font-size: 1rem;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width:1000px;
+}
+
+nav ul{
+    display: flex;
+    padding:0;
+    list-style: none;
+    justify-content: right;
+    color: aliceblue;
+}
+
+nav li{
+    flex: 0 auto;
+}
+
+nav li a{
+    
+    padding: 2rem 1rem;
+
+    left:15rem;
+    text-decoration: none;
+    justify-content: center;
+    color: aliceblue;
+
+    
+    
+
+}
+
+.content h4{
+    font-size: medium;
+    left:8rem;
+    position: fixed;
+    top:15rem;
+    
+}
+
+.pre-nav i{
+    font-weight: bold;
+    left:15rem;
+    top: 2rem;
+}
+
+.highlight{
+    background-color: rgb(132, 132, 200);
+    display:inline-block;
+    left:15rem;
+    position: fixed;
+    top:23rem;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+}
+
+.content h4{
+    color: aqua;
+    display: inline-block;
+    position: fixed;
+    left: 15rem;
+    top: 20rem;
+}
+h6{
+    display: flex;
+    font-size: large;
+    text-align: center;
+    position:fixed;
+    top:20rem;
+    left:8rem;
+}
+nav i{
+    color: beige;
+    left: 8rem;
+    position: fixed;
+    top: 1rem;
+}
+.active{
+    background-color: rgb(119, 119, 196);
+    padding: 1rem 0.5em;;
+}
+
+.repair{
+    position:fixed;
+    top: 15rem;
+    left: 15rem;
+    color: rgb(120, 120, 226);
+    font-weight: 900;
+    font-size: large;
+
+}
+
+div ol {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+    top: 22rem;
+    position: relative;
+}
